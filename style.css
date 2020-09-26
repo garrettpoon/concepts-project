@@ -30,7 +30,7 @@
 	height: 100%;
 	display: table-cell; 
 	vertical-align: middle;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 32px; 
 	font-weight: 400;
 }
@@ -60,6 +60,106 @@
 	vertical-align: middle;
 	height: 100%;
 	color: white; 
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 }
+
+.navigation li:hover {
+	color: #009999;
+	cursor: pointer;
+}
+
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+/*Header Styles*/
+
+header{
+	background-color: #009999;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+
+h1, h2{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header h1{
+	color: white;
+	font-size: 50px
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img {
+	max-width: 100%;
+}
+
+main p{
+	text-align: center;
+}
+
+h2{
+	font-size: 30px;
+	color: #009999;
+	text-align: center;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: #009999;
+}
+
+footer {
+	background-color: #009999;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 5px;
+	text-align: center;
+}
+
+button.cta{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	background: #009999;
+	text-align: center;
+	display: block;
+	padding: 20px 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	margin: 0 auto;
+
+}
+
