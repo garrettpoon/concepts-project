@@ -65,7 +65,7 @@
 }
 
 .navigation li:hover {
-	color: #009999;
+	color: indianred;
 	cursor: pointer;
 }
 
@@ -79,7 +79,7 @@ body{
 /*Header Styles*/
 
 header{
-	background-color: #009999;
+	background-color: indianred;
 	text-align: center;
 	padding-top: 45px;
 	padding-bottom: 45px;
@@ -111,17 +111,17 @@ main p{
 
 h2{
 	font-size: 30px;
-	color: #009999;
+	color: indianred;
 	text-align: center;
 	margin: 40px 0 10px;
 }
 
 a{
-	color: #009999;
+	color: indianred;
 }
 
 footer {
-	background-color: #009999;
+	background-color: indianred;
 	text-align: center;
 	color: white;
 	padding: 50px;
@@ -140,7 +140,7 @@ footer a:hover{
 }
 
 p.caption{
-	color: #999999;
+	color: indianred;
 	font-style: italic;
 	margin-top: 5px;
 	text-align: center;
@@ -150,7 +150,7 @@ button.cta{
 	font-size: 30px;
 	font-weight: bold;
 	color: white;
-	background: #009999;
+	background: indianred;
 	text-align: center;
 	display: block;
 	padding: 20px 30px;
